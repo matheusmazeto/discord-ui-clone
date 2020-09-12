@@ -1,11 +1,12 @@
 import React from 'react'
 
+import Layout from 'components/Layout'
 import GlobalStyles from 'styles/global'
 
 const App = () => {
   return (
     <>
-      <div>UI Clone Template</div>
+      <Layout />
       <GlobalStyles />
     </>
   )
